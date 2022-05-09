@@ -18,7 +18,7 @@ export const InstagramUsername: FC<StepInput> = ({ userInput, setUserInput }) =>
                 <span className='question_wrapper'>What is your Instagram username?</span>
             </header>
             <main>
-                <input contentEditable onKeyUp={setAnswer} placeholder={"Press Your Instagram Username"} />
+                <input contentEditable onKeyUp={setAnswer} placeholder={"Enter you instagram username"} />
             </main>
             <div className='buttons'>
                 <Link to="/">
